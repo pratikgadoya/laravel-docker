@@ -30,7 +30,7 @@ services:
     volumes:
       - dbdata:/var/lib/mysql
     environment:
-      - "MYSQL_ROOT_PASStouchWORD=root"
+      - "MYSQL_ROOT_PASSWORD=root"
       - "MYSQL_DATABASE=dockerdemo"
       - "MYSQL_USER=root"
     ports:
